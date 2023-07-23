@@ -1,9 +1,67 @@
 #home {
-  background: url(../../assets/images/home.jpg) no-repeat;
-  background-color: grey;
-  background-blend-mode: multiply;
+  /* background: url(../../assets/images/home.jpg) no-repeat; */
+  background: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../../assets/images/home.jpg);
+  background-size: cover;
+  /* background-color: grey;
+  background-blend-mode: ; */
+  /* padding-top: 2rem; */
+  min-height: 100vh;
 }
 
-.nav {
+/* 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #37393F;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+ul li {
+  padding: 30px 20px;
+  text-transform: uppercase;
+}
+
+ul li a {
+  text-decoration: none;
   color: white;
 }
+ul li a:hover {
+  color: #0082f3;
+  transition: 0.3s;
+}
+ul li a.isActive {
+  color: #0082f3;
+} */
+
+.landing {
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.landing h1 {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.landing p {
+  font-size: 18px;
+  line-height: 25px;
+  width: 75%;
+  margin: 0px auto 19px;
+  font-weight: 300;
+}
+
