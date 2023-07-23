@@ -1,0 +1,9 @@
+#home {
+  background: url(../../assets/images/home.jpg) no-repeat;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.nav {
+  color: white;
+}
