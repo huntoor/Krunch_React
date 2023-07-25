@@ -1,11 +1,17 @@
 
 nav {
+  background-color: #37393F;
+  display: flex;
+  justify-content: center;
+}
+
+nav div.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 75rem;
   /* padding-top: 30px;
   padding-bottom: 30px; */
-  background-color: #37393F;
 }
 
 ul {

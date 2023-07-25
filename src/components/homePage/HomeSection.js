@@ -8,8 +8,8 @@ function HomeSection() {
 
   return (
     <section id="home" className=''>
+      <Navbar />
       <div className="wrapper">
-        <Navbar />
         <div className='landing'>
           <h1>CLEAN AND FLEXIBLE TEMPLATE</h1>
           <p>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.

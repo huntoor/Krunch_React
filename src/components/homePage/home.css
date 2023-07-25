@@ -8,40 +8,6 @@
   min-height: 100vh;
 }
 
-/* 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #37393F;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-ul li {
-  padding: 30px 20px;
-  text-transform: uppercase;
-}
-
-ul li a {
-  text-decoration: none;
-  color: white;
-}
-ul li a:hover {
-  color: #0082f3;
-  transition: 0.3s;
-}
-ul li a.isActive {
-  color: #0082f3;
-} */
-
 .landing {
   height: 650px;
   display: flex;
