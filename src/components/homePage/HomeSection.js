@@ -1,7 +1,4 @@
-import { Link } from 'react-router-dom';
-
 import "./home.css";
-import logo from '../../assets/images/logo.png';
 import Navbar from '../Navbar/Navbar.js';
 
 function HomeSection() {

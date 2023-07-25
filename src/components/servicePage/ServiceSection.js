@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/Navbar"
 
-function AboutSection() {
+function ServicesSection() {
   return (
     <>
       <Navbar />
@@ -11,4 +11,4 @@ function AboutSection() {
   )
 }
 
-export default AboutSection
+export default ServicesSection;
