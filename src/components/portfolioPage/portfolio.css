@@ -1,0 +1,45 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.cardd {
+  position: relative;
+  cursor: pointer;
+  width: 25%;
+}
+
+.cardd img {
+  width: 100%;
+}
+
+.cardd .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0082f300;
+  z-index: 2;
+  transition: .3s;
+}
+.cardd:hover .overlay {
+  background-color: #0082f37d;
+}
+
+.cardd .overlay .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: white;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  transition: 0.3s;
+}
+.cardd:hover .text {
+  opacity: 1;
+}
