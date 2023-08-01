@@ -1,9 +1,20 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 import logo from '../../assets/images/logo.png';
 import './navbar.css'
 
 function Navbar() {
+  const location = useLocation();
+
+  const { pathname } = location;
+
+  const splitLocation = pathname.split('/');
+
+  function toggleActive() {
+    console.log(location);
+    console.log(splitLocation);
+    console.log(splitLocation[1] === "" ? "isActive" : "");
+  }
   return (
     <nav>
       <div className='container'>
@@ -13,25 +24,25 @@ function Navbar() {
         <div className='nav'>
           <ul>
             <li>
-              <Link to='/' className="nav-item isActive">Home</Link>
+              <Link to='/' className={splitLocation[1] === "" ? "nav-item isActive" : "nav-item"} onClick={toggleActive}>Home</Link>
             </li>
             <li>
-              <Link to='/about' className="nav-item">About</Link>
+              <Link to='/about' className={splitLocation[1] === "about" ? "nav-item isActive" : "nav-item"}>About</Link>
             </li>
             <li>
-              <Link to='/portfolio' className="nav-item">Portfolio</Link>
+              <Link to='/portfolio' className={splitLocation[1] === "portfolio" ? "nav-item isActive" : "nav-item"}>Portfolio</Link>
             </li>
             <li>
-              <Link to='/services' className="nav-item">Services</Link>
+              <Link to='/services' className={splitLocation[1] === "services" ? "nav-item isActive" : "nav-item"}>Services</Link>
             </li>
             <li>
-              <Link to='/team' className="nav-item">team</Link>
+              <Link to='/team' className={splitLocation[1] === "team" ? "nav-item isActive" : "nav-item"}>team</Link>
             </li>
             <li>
-              <Link to='/blog' className="nav-item">Blog</Link>
+              <Link to='/blog' className={splitLocation[1] === "blog" ? "nav-item isActive" : "nav-item"}>Blog</Link>
             </li>
             <li>
-              <Link to='/signin' className="nav-item">Sign In</Link>
+              <Link to='/signin' className={splitLocation[1] === "signin" ? "nav-item isActive" : "nav-item"}>Sign In</Link>
             </li>
           </ul>
         </div>
