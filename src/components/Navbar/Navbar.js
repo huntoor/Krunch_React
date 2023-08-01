@@ -10,21 +10,16 @@ function Navbar() {
 
   const splitLocation = pathname.split('/');
 
-  function toggleActive() {
-    console.log(location);
-    console.log(splitLocation);
-    console.log(splitLocation[1] === "" ? "isActive" : "");
-  }
   return (
     <nav>
       <div className='container'>
         <div className="logo">
-          <img src={ logo } />
+          <img src={logo} />
         </div>
         <div className='nav'>
           <ul>
             <li>
-              <Link to='/' className={splitLocation[1] === "" ? "nav-item isActive" : "nav-item"} onClick={toggleActive}>Home</Link>
+              <Link to='/' className={splitLocation[1] === "" ? "nav-item isActive" : "nav-item"}>Home</Link>
             </li>
             <li>
               <Link to='/about' className={splitLocation[1] === "about" ? "nav-item isActive" : "nav-item"}>About</Link>
