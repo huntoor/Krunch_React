@@ -2,6 +2,7 @@ import  'bootstrap/dist/css/bootstrap.min.css';
 
 import Navbar from "../Navbar/Navbar";
 import "./singin.css";
+import Footer from '../footerbar/Footer';
 
 function SigninSection() {
   return (
@@ -95,6 +96,7 @@ function SigninSection() {
           </form>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

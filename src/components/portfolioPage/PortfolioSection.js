@@ -10,11 +10,12 @@ import portfolio5 from "../../assets/images/portfolio5.jpg"
 import portfolio6 from "../../assets/images/portfolio6.jpg"
 import portfolio7 from "../../assets/images/portfolio7.jpg"
 import portfolio8 from "../../assets/images/portfolio8.jpg"
+import Footer from "../footerbar/Footer"
 
 function PortfolioSection() {
 
   function handleClick() {
-    alert("Hello!");
+    alert("Hola!");
   }
 
   return (
@@ -34,61 +35,62 @@ function PortfolioSection() {
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio1}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio2}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio3}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
           
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio4}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio5}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio6}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
           <div className="cardd" onClick={handleClick}>
             <img src={portfolio7}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
           <div className="cardd">
             <img src={portfolio8}></img>
             <div className="overlay">
-              <p className="text">Hello!</p>
+              <p className="text">Hola!</p>
             </div>
           </div>
 
         </div>
       </div>
+      <Footer />
     </>
   )
 }

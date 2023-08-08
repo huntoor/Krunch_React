@@ -1,4 +1,5 @@
 import Navbar from "../Navbar/Navbar"
+import Footer from "../footerbar/Footer";
 
 function TeamSection() {
   return (
@@ -7,6 +8,7 @@ function TeamSection() {
       <div className="wrapper" style={{textAlign: "center"}}>
         <h1>Under construcation GO AWAAAY!!! (ㆆ _ ㆆ)</h1>
       </div>
+      <Footer />
     </>
   )
 }

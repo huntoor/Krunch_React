@@ -3,6 +3,8 @@ nav {
   background-color: #37393F;
   display: flex;
   justify-content: center;
+  position: sticky;
+  top: 0;
 }
 
 nav div.container {
@@ -14,26 +16,26 @@ nav div.container {
   padding-bottom: 30px; */
 }
 
-ul {
+ul.navList {
   list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-ul li {
+ul.navList li {
   padding: 30px 20px;
   text-transform: uppercase;
 }
 
-ul li a {
+ul.navList li a {
   text-decoration: none;
   color: white;
 }
-ul li a:hover {
+ul.navList li a:hover {
   color: #0082f3;
   transition: 0.3s;
 }
-ul li a.isActive {
+ul.navList li a.isActive {
   color: #0082f3;
 }

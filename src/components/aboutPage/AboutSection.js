@@ -1,4 +1,6 @@
 import Navbar from "../Navbar/Navbar"
+import Footer from "../footerbar/Footer"
+import './about.css'
 
 function AboutSection() {
   return (
@@ -12,12 +14,13 @@ function AboutSection() {
           <div className="line-border"></div>
         </div>
 
-        <div className="the-iframe">
+        <div className="iframe">
           <div className="embed-responsive embed-responsive-16by9">
             <iframe className="embed-responsive-item" width="848" height="476" src="https://www.youtube.com/embed/lLWEXRAnQd0" title="Bob Ross - Island in the Wilderness (Season 29 Episode 1)" frameBorder="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   )
 }

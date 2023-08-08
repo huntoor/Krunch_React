@@ -17,7 +17,7 @@ function Navbar() {
           <img src={logo} />
         </div>
         <div className='nav'>
-          <ul>
+          <ul className='navList'>
             <li>
               <Link to='/' className={splitLocation[1] === "" ? "nav-item isActive" : "nav-item"}>Home</Link>
             </li>
