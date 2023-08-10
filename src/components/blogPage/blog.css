@@ -1,0 +1,31 @@
+.card-group {
+  margin: 50px 0;
+}
+
+.card {
+  border: 0 !important;
+  text-align: left;
+  margin: 0 30px;
+}
+
+.card .myText {
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.read {
+  margin: 30px 0;
+}
+
+.read .sec-btn {
+  color: rgb(34, 32, 32);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.read .sec-btn:hover {
+  color: white;
+}
