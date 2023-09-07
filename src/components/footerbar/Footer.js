@@ -7,9 +7,9 @@ function Footer() {
       <div className='social'>
         <ul className='footerList'>
           <li className='footerItem' ><Link to={"https://www.facebook.com/"} target='_blank' className='footerLink'>facebook</Link></li>
-          <li className='footerItem' ><Link to={"https://www.facebook.com/"} target='_blank' className='footerLink'>instagram</Link></li>
-          <li className='footerItem' ><Link to={"https://www.facebook.com/"} target='_blank' className='footerLink'>Twitter</Link></li>
-          <li className='footerItem' ><Link to={"https://www.facebook.com/"} target='_blank' className='footerLink'>Google</Link></li>
+          <li className='footerItem' ><Link to={"https://www.instagram.com/"} target='_blank' className='footerLink'>instagram</Link></li>
+          <li className='footerItem' ><Link to={"https://www.twitter.com/"} target='_blank' className='footerLink'>Twitter</Link></li>
+          <li className='footerItem' ><Link to={"https://www.google.com/"} target='_blank' className='footerLink'>Google</Link></li>
         </ul>
       </div>
       <div className='copywrite'>
